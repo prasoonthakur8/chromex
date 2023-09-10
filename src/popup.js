@@ -1,6 +1,8 @@
 import $ from 'jquery';
 import './styles.css';
 
-$(document).ready(function() {
-  $('#message').text('Hello from jQuery and Tailwind!');
+$(document).ready(function () {
+  $('#sayHiButton').click(function () {
+    alert('Hello');
+  });
 });

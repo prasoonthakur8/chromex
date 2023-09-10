@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Popup</title>
+  <title>ChromeX</title>
 </head>
-<body class="bg-[#042513] text-white">
+
+<body class="bg-gradient-to-b from-[#042513] to-[#072514] text-white flex flex-col w-96 min-h-screen h-96 min-w-full">
 
   <!-- Navbar -->
-  <nav class="bg-[#002510] p-4">
+  <nav class="bg-gradient-to-r from-[#004020] to-[#005030] p-6 shadow-lg">
     <div class="flex items-center justify-between">
-      <span class="text-lg font-bold">Best Plugin</span>
-      <input type="text" placeholder="Search" class="bg-white text-black rounded p-2">
+      <span class="text-3xl font-extrabold tracking-wide">ChromeX</span>
     </div>
   </nav>
 
   <!-- Tabs and Content -->
-  <div class="p-4">
-    <div class="flex mb-4">
-      <button class="bg-[#002511] p-4 flex-1 text-center">Tab 1</button>
-      <button class="bg-[#002511] p-4 flex-1 text-center">Tab 2</button>
-    </div>
-    <div id="content" class="p-4 border border-gray-300 rounded">
-      <!-- Content will go here -->
-      Content for the selected tab.
-    </div>
+  <div class="flex-1 flex items-center justify-center p-4">
+    <button id="sayHiButton"
+      class="bg-gradient-to-r from-[#004022] to-[#005032] p-6 flex-1 max-w-xs text-center text-3xl rounded-full hover:from-[#005032] hover:to-[#006042] transition ease-in-out duration-300 shadow-2xl">Say
+      Hi</button>
   </div>
 
   <!-- Footer -->
-  <footer class="bg-[#072514] p-4 text-center">
-    <span>Best Plugin in the World © 2023</span>
+  <footer class="bg-gradient-to-r from-[#005025] to-[#006035] p-6 text-center shadow-lg">
+    <span class="text-lg tracking-wide">ChromeX © 2023</span>
   </footer>
 
 </body>
+
 </html>
