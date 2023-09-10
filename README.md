@@ -1,6 +1,6 @@
-# Chromex
+# ChromeX
 
-Chromex is a base template for building Chrome Extensions using Tailwind CSS, Webpack, and jQuery.
+ChromeX is a base template for building Chrome Extensions using Tailwind CSS, Webpack, and jQuery.
 
 ## Table of Contents
 
